@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar-brand {
+    width: 135px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #f00;
+}
+
+header {
+    height: 100vh;
+    position: relative;
+    background: #fff;
+
+    h1 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 40%;
+        font-size: 60px;
+        color: #f00;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    .scroll {
+        color: #000;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0 0 45px 0;
+
+        &::after {
+            content: "";
+            background: #f00;
+            width: 2px;
+            height: 45px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+
+        }
+    }
+}
+
+.bg-black {
+    background: #000;
+}
+
+.bg-red {
+    background: #f00;
+}
+
+.red {
+    color: #f00;
+}
+
+section {
+    padding: 90px 0;
+}
+
+h2.head {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 6rem;
+}
+
+.steps {
+    margin: 0 0 10rem 0;
+    text-align: justify;
+
+    ul {
+        li {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 0.8rem;
+
+            &::after {
+                content: "";
+                background: #f00;
+                width: 20px;
+                height: 2px;
+                position: absolute;
+                left: 0;
+
+                top: 10px;
+
+            }
+        }
+    }
+}
+
+.contact {
+    a {
+        color: #282828;
+        text-decoration: none;
+
+        &:hover {
+            color: #f00;
+        }
+    }
+}
