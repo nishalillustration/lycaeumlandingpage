@@ -88,4 +88,16 @@ h2.head {
   .contact a:hover {
     color: #f00; }
 
+/* rwd css started */
+@media (max-width: 320px) {
+  header h1 {
+    font-size: 30px !important; } }
+@media (max-width: 767.98px) {
+  header h1 {
+    font-size: 36px; }
+
+  h2.head {
+    font-size: 30px; } }
+/* rwd css end */
+
 /*# sourceMappingURL=main.css.map */

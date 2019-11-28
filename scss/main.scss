@@ -120,3 +120,28 @@ h2.head {
         }
     }
 }
+
+/* rwd css started */
+
+@media (max-width: 320px) {
+
+    header h1{
+        font-size: 30px !important;
+    }
+}
+@media (max-width: 767.98px) {
+
+   header h1 {
+        font-size: 36px;
+    }
+    h2.head{
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+/* rwd css end */
